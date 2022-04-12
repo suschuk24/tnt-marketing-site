@@ -1,0 +1,33 @@
+.LeaderCard-about {
+    font-size: calc(10px + 1vmin);
+    margin: 3.125rem;
+    padding: 20px
+}
+
+.LeaderCard-container {
+
+}
+.LeaderCard-details {
+
+}
+
+.LeaderCard-image {
+    height: 10%;
+    width: 10%;
+    border: #61dafb 1px solid;
+    margin: 2rem;
+    padding: 20px
+}
+
+.LeaderCard-name {
+    margin: 2rem;
+    padding: 20px;
+}
+
+.LeaderCard-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
