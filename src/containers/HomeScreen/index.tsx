@@ -5,13 +5,13 @@ import NowHiring from "../NowHiring";
 import ContactGrid from "../ContactGrid";
 const HomeScreen = () => {
   return (
-    <>
-    <LocationGrid />
+      <>
+          <LocationGrid />
           <LeadershipTeam />
           <NowHiring />
           <ContactGrid />
-    </>
-  )
+      </>
+  );
 }
 
-export default HomeScreen
+export default HomeScreen;
