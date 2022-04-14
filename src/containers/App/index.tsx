@@ -1,22 +1,21 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './App.css';
 import Header from "../../components/Header";
-import LocationGrid from "../LocationGrid";
-import LeadershipTeam from "../LeadershipTeam";
-import NowHiring from "../NowHiring";
-import ContactGrid from "../ContactGrid";
+import HomeScreen from '../HomeScreen/HomeScreen';
 import Footer from "../../components/Footer"
 
 const App = () => {
   return (
-    <div className="App">
-        <Header />
-        <LocationGrid />
-        <LeadershipTeam />
-        <NowHiring />
-        <ContactGrid />
-        <Footer />
-    </div>
+    <Router>
+      <Header />
+      <main className="App">
+          <Routes>
+            <Route path='/' element={<HomeScreen/>}/>
+          </Routes>
+      </main>
+      <Footer />
+    </Router>
   );
 }
 
