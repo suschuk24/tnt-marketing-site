@@ -4,6 +4,7 @@ import './App.css';
 import Header from "../../components/Header";
 import HomeScreen from '../HomeScreen';
 import Footer from "../../components/Footer"
+import GoldenGateway from "../GoldenGateway";
 
 const App = () => {
   return (
@@ -13,6 +14,9 @@ const App = () => {
           <Routes>
             <Route path='/' element={
                 <HomeScreen />
+            }/>
+            <Route path = '/golden-gateway' element={
+                <GoldenGateway />
             }/>
           </Routes>
       </main>
