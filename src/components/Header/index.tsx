@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/truks-n-trykes-logo.png'
+import logo from '../../assets/general/tnt-logo.png'
 import './Header.css';
 import { Link } from 'react-scroll'
 

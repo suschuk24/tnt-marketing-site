@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../../../../../assets/tnt-gg-logo.png'
+import logo from '../../../../../assets/centers/tnt-gg-logo.png'
 
 type Props = {
     name: string
