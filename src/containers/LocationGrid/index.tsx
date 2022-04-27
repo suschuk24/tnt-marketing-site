@@ -2,31 +2,35 @@ import LocationCard from "../../components/LocationCard";
 import './LocationGrid.css'
 
 const LocationGrid = () => {
-    const locations = [
-        {
-            name: 'Daycare 1'
-        },
-        {
-            name: 'Daycare 2'
-        },
-        {
-            name: 'Daycare 3'
-        },
-        {
-            name: 'Daycare 4'
-        },
-        {
-            name: 'Daycare 5'
-        },
-        {
-            name: 'Daycare 6'
-        }
-    ];
+    const locations = [{
+        name: 'Truks-N-Trykes Golden Gateway',
+        minAge: '6 weeks',
+        maxAge: '12 years'
+    },{
+        name: 'Truks-N-Trykes Nursery Care',
+        minAge: '6 weeks',
+        maxAge: '3 years'
+    },{
+        name: 'Truks-N-Trykes 2',
+        minAge: '6 weeks',
+        maxAge: '12 years'
+    },{
+        name: 'Truks-N-Trykes Playcare',
+        minAge: '2 years',
+        maxAge: '12 years'
+    },{
+        name: 'Truks-N-Trykes 3',
+        minAge: 'preschool',
+        maxAge: '5 years'
+    },{
+        name: 'Truks-N-Trykes Prep',
+        minAge: 'preschool',
+        maxAge: 'preschool'
+    }];
 
     return (
         <div className='LocationGrid-container'>
-        {/*    Location cards will go here...*/}
-            <p className='Location-card'>Locations Cards here: </p>
+            <div className='LocationCard-title'> Locations </div>
             <div className='Location-grid'>
                 {locations.map(location => <LocationCard location={location} />)}
             </div>

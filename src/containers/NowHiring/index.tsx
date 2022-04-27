@@ -1,12 +1,14 @@
+import './NowHiring.css'
+
 const NowHiring = () => {
     return (
-        <div>
-            <div>
+        <div className='NowHiring-container'>
+            <h3 className='NowHiring-title'>
                 Now Hiring
-            </div>
-            <div>
+            </h3>
+            <button className='NowHiring-button'>
                 hiring button -- goes here
-            </div>
+            </button>
             <div>
                 enticing video to make people want to work here -- goes here
             </div>

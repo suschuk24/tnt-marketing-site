@@ -2,22 +2,34 @@
 .LocationCard-logo {
 
 }
-.LocationCard-name {
+
+.LocationCard-title {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+
+.LocationCard-detail {
     font-size: 75%;
-    margin: 4px;
-    padding: 2px;
+    margin: 8px;
+    padding: 8px;
+    flex-wrap: nowrap;
 }
 
 .LocationCard-card {
     background-color: white;
-    max-height: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: calc(10px + 2vmin);
+    min-height: 260px;
+    min-width: 260px;
     color: #282c34;
-    border: 30px;
-    margin: 30px
+    margin: 24px;
+    border-radius: 5px;
+    flex: 1;
 }
 
 .App-link {
