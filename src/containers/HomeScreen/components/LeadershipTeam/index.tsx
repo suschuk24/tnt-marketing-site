@@ -17,7 +17,7 @@ const LeadershipTeam = () => {
         }
     ]
     return (
-        <div className='LeadershipTeam-container'>
+        <div id='leadership' className='LeadershipTeam-container'>
             <h2 className='LeadershipTeam-title'>
                 Leadership Team
             </h2>
