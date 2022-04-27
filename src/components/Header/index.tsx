@@ -10,7 +10,7 @@ const Header = () => {
 
       <div className='header-right'>
         <Link to='locations' spy={true} smooth={true}>Locations</Link>
-        <Link to='locations' spy={true} smooth={true}>Leadership</Link>
+        <Link to='leadership' spy={true} smooth={true}>Leadership</Link>
         <Link to='contact' spy={true} smooth={true}>Parent Contact</Link>
         <Link to='employment' spy={true} smooth={true}>Employment</Link>
       </div>
