@@ -1,4 +1,4 @@
-import ContactCard from "../../components/ContactCard";
+import ContactCard from "../../../../components/ContactCard";
 import './ContactGrid.css'
 const ContactGrid = () => {
     const places = [

@@ -1,8 +1,8 @@
 import React from 'react'
-import LocationGrid from "../LocationGrid";
-import LeadershipTeam from "../LeadershipTeam";
-import NowHiring from "../NowHiring";
-import ContactGrid from "../ContactGrid";
+import LocationGrid from "./components/LocationGrid";
+import LeadershipTeam from "./components/LeadershipTeam";
+import NowHiring from "./components/NowHiring";
+import ContactGrid from "./components/ContactGrid";
 const HomeScreen = () => {
   return (
       <>

@@ -1,4 +1,4 @@
-import LocationCard from "../../components/LocationCard";
+import LocationCard from "../../../../components/LocationCard";
 import './LocationGrid.css'
 
 const LocationGrid = () => {

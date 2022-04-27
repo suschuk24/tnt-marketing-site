@@ -1,4 +1,4 @@
-import LeaderCard from "../../components/LeaderCard";
+import LeaderCard from "../../../../components/LeaderCard";
 import "./LeadershipTeam.css"
 
 const LeadershipTeam = () => {
