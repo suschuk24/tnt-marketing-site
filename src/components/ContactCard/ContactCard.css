@@ -2,19 +2,22 @@
     font-size: calc(10px + 1vmin);
 }
 
-.ContactCard-container {
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    /*margin: 2rem;*/
-    /*padding: 2rem;*/
-}
 .ContactCard-address {
     font-size: calc(10px + 1vmin);
     margin-bottom: 2rem;
+}
+.ContactCard-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 1;
+    margin: 24px;
+    border-radius: 5px;
+    font-size: calc(10px + 2vmin);
+    min-height: 220px;
+    min-width: 220px;
+
 }
 
 .ContactCard-element {
