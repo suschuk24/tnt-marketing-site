@@ -8,7 +8,7 @@
 
 }
 .LeaderCard-details {
-
+    max-width: 800px;
 }
 
 .LeaderCard-image {
@@ -30,4 +30,5 @@
     align-items: center;
     flex-direction: row;
     margin-bottom: 2rem;
+    flex-wrap: wrap;
 }

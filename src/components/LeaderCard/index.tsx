@@ -11,9 +11,9 @@ const LeaderCard: React.FC<Props> = ({leader}) => {
             <div className='LeaderCard-row'>
                 <img src={logo} className="LeaderCard-image" alt="logo" />
                 <div className='LeaderCard-details'>
-                    <div className='LeaderCard-name'>
+                    <h3 className='LeaderCard-name'>
                         {leader.name}
-                    </div>
+                    </h3>
                     <div className='LeaderCard-about'>
                         {leader.about}
                     </div>

@@ -30,7 +30,7 @@ const LocationGrid = () => {
 
     return (
         <div className='LocationGrid-container'>
-            <div className='LocationCard-title'> Locations </div>
+            <h2 className='LocationCard-title'> Locations</h2>
             <div className='Location-grid'>
                 {locations.map(location => <LocationCard location={location} />)}
             </div>

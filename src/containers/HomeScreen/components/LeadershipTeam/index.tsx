@@ -18,9 +18,9 @@ const LeadershipTeam = () => {
     ]
     return (
         <div className='LeadershipTeam-container'>
-            <div className='LeadershipTeam-title'>
+            <h2 className='LeadershipTeam-title'>
                 Leadership Team
-            </div>
+            </h2>
             {leaders.map(leader => <LeaderCard leader={leader} />)}
         </div>
     )
