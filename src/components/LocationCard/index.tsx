@@ -10,7 +10,8 @@ const LocationCard: React.FC<Props> = ({location}) => {
     return (
         <div className='LocationCard-card'>
             <img src={logo} className="LocationCard-logo" alt="logo" />
-            <p className='LocationCard-name'>{location.name}</p>
+            <p className='LocationCard-detail'>{location.name}</p>
+            <p className='LocationCard-detail'> Ages: {location.minAge} - {location.maxAge}</p>
         </div>
     )
 }
