@@ -46,16 +46,16 @@ const ContactGrid = () => {
         }
     ]
 
-    return (
-        <div className='ContactGrid-container'>
-            <h4 className='ContactGrid-title' >
-                Contact Us
-            </h4>
-            <div className='ContactGrid-grid' >
-                {places.map(place =><ContactCard contactInfo={place} />)}
-            </div>
-        </div>
-    );
-}
+  return (
+    <div id='contact' className='ContactGrid-container'>
+      <div className='ContactGrid-title'>Contact Us</div>
+      <div className='ContactGrid-grid'>
+        {places.map((place) => (
+          <ContactCard contactInfo={place} />
+        ))}
+      </div>
+    </div>
+  );
+};
 
-export default ContactGrid
+export default ContactGrid;
