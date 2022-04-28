@@ -5,7 +5,7 @@ import { Link } from 'react-scroll'
 
 const Header = () => {
   return (
-    <header className='App-header'>
+    <header className='App-header sticky'>
       <img src={logo} className='App-logo' alt='logo' />
 
       <div className='header-right'>
