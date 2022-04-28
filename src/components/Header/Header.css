@@ -23,6 +23,12 @@
   cursor: pointer;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 @media screen and (max-width: 640px) {
   .App-header {
     flex-direction: column;
