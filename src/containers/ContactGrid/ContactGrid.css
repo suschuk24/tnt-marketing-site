@@ -1,18 +1,35 @@
 
 .ContactGrid-container {
-
-}
-.ContactGrid-title {
-
-}
-.ContactGrid-grid {
-    background-color: #282c34;
-    max-height: 10%;
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: linear-gradient(180deg,
+    rgba(12,113,195,0.42) 0%,
+    rgba(12,113,195,0.42) 100%),
+    url('../../../src/assets/general/tnt-hero-bg.jpeg')
+    !important;
+}
+
+.ContactGrid-title {
+    display: flex;
     justify-content: center;
+    font-size: 2.5rem;
+    margin: 20px auto;
+    padding: 5px 20px;
+    border-bottom: 10px solid #f89420;
+    border-radius: 50%;
+    background-color: #4F2683;
+    color: #FFFFFF;
+    box-shadow: 0 0 5px #4F2683;
+}
+
+.ContactGrid-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     font-size: calc(10px + 2vmin);
-    color: white;
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 10px;
 }

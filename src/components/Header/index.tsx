@@ -1,18 +1,18 @@
 import React from 'react';
-import logo from '../../logo.svg';
+import logo from '../../assets/general/tnt-logo.png'
 import './Header.css';
-import { Link } from 'react-scroll'
 
 const Header = () => {
   return (
     <header className='App-header'>
-      <img src={logo} className='App-logo' alt='logo' />
+        <a href='/'>
+            <img src={logo} className='App-logo' alt='logo' />
+        </a>
 
       <div className='header-right'>
-        <Link to='locations' spy={true} smooth={true}>Locations</Link>
-        <Link to='locations' spy={true} smooth={true}>Leadership</Link>
-        <Link to='contact' spy={true} smooth={true}>Parent Contact</Link>
-        <Link to='employment' spy={true} smooth={true}>Employment</Link>
+        <a href='/leadership'>Leadership</a>
+        <a href='/contact-us'>Contact Us</a>
+        <a href='/employment' >Employment</a>
       </div>
     </header>
   );

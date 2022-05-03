@@ -2,31 +2,34 @@
     font-size: calc(10px + 1vmin);
 }
 
-.ContactCard-container {
-
+.ContactCard-detail {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    /*margin: 2rem;*/
-    /*padding: 2rem;*/
-}
-.ContactCard-address {
     font-size: calc(10px + 1vmin);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    flex-wrap: nowrap;
 }
 
-.ContactCard-element {
+.ContactCard-detail-line {
+    justify-content: center;
     font-size: calc(10px + 1vmin);
-    margin-bottom: 2rem;
+    margin: 0;
+    flex-wrap: nowrap;
 }
 
-.ContactCard-element2 {
-    font-size: calc(10px + 1vmin);
-    margin-bottom: 2rem;
+.ContactCard-logo {
+    display: flex;
+    margin: 10px auto;
+    max-height: 150px;
+    max-width: 220px;
 }
 
-.ContactCard-name {
-    margin-bottom: 2rem;
+.ContactCard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    width: 300px;
 }
