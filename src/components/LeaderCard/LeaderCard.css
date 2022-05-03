@@ -23,8 +23,8 @@
 }
 
 .LeaderCard-image {
-    max-height: 280px;
-    max-width: 280px;
+    max-height: 420px;
+    max-width: 420px;
     border: #4F2683 5px solid;
     box-shadow: 0 0 5px #4F2683;
     border-radius: 20px;
@@ -32,8 +32,8 @@
 }
 
 .LeaderCard-name {
-    margin:2rem 30%;
-    /*padding: 20px;*/
+    margin:2rem 25%;
+    padding-bottom: 20px;
     color: #a0cf67;
     font-family: 'Marker Felt', display, sans-serif;
     font-weight: bolder;

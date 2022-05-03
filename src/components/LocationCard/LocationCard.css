@@ -20,6 +20,7 @@
     color: #4F2683;
     font-weight: bold;
     box-shadow: 0 0 10px #4F2683;
+    transition: 0.45s;
 }
 
 .LocationCard-detail {

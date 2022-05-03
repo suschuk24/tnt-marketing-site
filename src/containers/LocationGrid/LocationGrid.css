@@ -38,6 +38,7 @@
     background-color: #f89420;
     color: #4F2683;
     font-weight: bold;
+    transition: 0.45s;
 }
 
 .Location-grid {
