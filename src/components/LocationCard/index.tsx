@@ -1,6 +1,6 @@
 import React from "react";
 import './LocationCard.css'
-import logo from "../../logo.svg";
+import {Link} from "react-scroll";
 
 type Props = {
     location: {
@@ -8,16 +8,17 @@ type Props = {
         logo: any
         minAge: string
         maxAge: string
+        link: string
     }
 }
 
 const LocationCard: React.FC<Props> = ({location}) => {
     return (
-        <div className='LocationCard-card'>
+        <a className='LocationCard-card' href={'/locations' + location.link} onClick={() => console.log("clicked")}>
             <img src={location.logo} className="LocationCard-logo" alt="logo" />
             <p className='LocationCard-detail'>{location.name}</p>
             <p className='LocationCard-detail'> Ages: {location.minAge} - {location.maxAge}</p>
-        </div>
+        </a>
     )
 }
 

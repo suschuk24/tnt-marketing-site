@@ -9,7 +9,7 @@ const LeaderCard: React.FC<Props> = ({leader}) => {
     return (
         <div className='LeaderCard-container'>
             <div className='LeaderCard-row'>
-                <img src={logo} className="LeaderCard-image" alt="logo" />
+                <img src={leader.image} className="LeaderCard-image" alt="logo" />
                 <div className='LeaderCard-details'>
                     <h3 className='LeaderCard-name'>
                         {leader.name}

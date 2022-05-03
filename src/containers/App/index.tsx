@@ -5,6 +5,10 @@ import Header from "../../components/Header";
 import HomeScreen from '../HomeScreen';
 import Footer from "../../components/Footer"
 import GoldenGateway from "../DaycareCenters/GoldenGateway";
+import LocationGrid from "../HomeScreen/components/LocationGrid";
+import LeadershipTeam from "../HomeScreen/components/LeadershipTeam";
+import ContactGrid from "../HomeScreen/components/ContactGrid";
+import NowHiring from "../HomeScreen/components/NowHiring";
 
 const App = () => {
     const goldenGatewayData = {
@@ -24,18 +28,24 @@ const App = () => {
       <Header />
       <main className="App">
           <Routes>
-            <Route path='/' element={
-                <HomeScreen />
-            }/>
-            <Route path = '/golden-gateway' element={
-                <GoldenGateway
-                    name={goldenGatewayData.name}
-                    address={goldenGatewayData.address}
-                    address1={goldenGatewayData.address1}
-                    hours = {goldenGatewayData.hours}
-                    phone={goldenGatewayData.phone}
-                />
-            }/>
+              <Route path='/' element={
+                  <HomeScreen />
+              }/>
+              <Route path = '/locations/golden-gateway' element={
+                  <GoldenGateway />
+              }/>
+              <Route path = '/locations' element={
+                  <LocationGrid />
+              }/>
+              <Route path = '/leadership' element={
+                  <LeadershipTeam />
+              }/>
+              <Route path = '/parent-contact' element={
+                  <ContactGrid />
+              }/>
+              <Route path = '/employment' element={
+                  <NowHiring />
+              }/>
           </Routes>
       </main>
       <Footer />

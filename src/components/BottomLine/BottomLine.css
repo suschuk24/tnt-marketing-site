@@ -1,0 +1,11 @@
+.BottomLine-primary {
+    border-bottom: #f89420 solid 10px;
+    border-radius: 50px 0;
+    margin: 20px 0;
+}
+
+.BottomLine-secondary {
+    border-bottom: #4F2683 solid 10px;
+    border-radius: 50px 0;
+    margin: 20px 0;
+}

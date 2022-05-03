@@ -1,26 +1,36 @@
 .App-header {
-  background-color: #282c34;
   max-height: 10%;
   font-size: calc(10px + 2vmin);
-  color: white;
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  background-color: #f89420;
+  color: #4F2683;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .header-right a {
-  color: white;
   text-align: center;
   padding: 12px;
   text-decoration: none;
   font-size: calc(10px + 1vmin);
+  border-radius: 20px;
 }
 
 .header-right a:hover {
-  color: rgb(177, 177, 177);
+  color: #FFFFFF;
   transition: 0.25s;
   cursor: pointer;
+  background-color: #4F2683;
+  border-radius: 20px;
 }
 
 @media screen and (max-width: 640px) {

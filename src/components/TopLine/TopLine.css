@@ -1,0 +1,11 @@
+.TopLine-primary {
+    border-top: #f89420 solid 10px;
+    border-radius: 0 50px;
+    margin: 20px 0;
+}
+
+.TopLine-secondary {
+    border-top: #4F2683 solid 10px;
+    border-radius: 0 50px;
+    margin: 20px 0;
+}

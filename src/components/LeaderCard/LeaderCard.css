@@ -12,11 +12,11 @@
 }
 
 .LeaderCard-image {
-    height: 10%;
-    width: 10%;
-    border: #61dafb 1px solid;
+    max-height: 280px;
+    max-width: 280px;
+    border: #61dafb 5px solid;
+    border-radius: 20px;
     margin: 2rem;
-    padding: 20px
 }
 
 .LeaderCard-name {

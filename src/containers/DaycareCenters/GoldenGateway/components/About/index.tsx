@@ -1,5 +1,4 @@
 import React from "react";
-import logo from '../../../../../assets/centers/tnt-gg-logo.png'
 
 type Props = {
     name: string
@@ -13,8 +12,8 @@ type Props = {
 }
 const About: React.FC<Props> = ({name, description, tagLine, address, address1, hours, phone}) => {
     return (
-        <div>
-            <img src={logo} />
+        <div className='About-container'>
+
             <div>
                 <h3>{phone}</h3>
                 <p>{address}</p>
