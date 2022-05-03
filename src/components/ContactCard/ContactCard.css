@@ -18,19 +18,18 @@
     flex-wrap: nowrap;
 }
 
+.ContactCard-logo {
+    display: flex;
+    margin: 10px auto;
+    max-height: 150px;
+    max-width: 220px;
+}
+
 .ContactCard-container {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex: 1;
-    margin: 24px;
+    justify-content: center;
+    margin-bottom: 24px;
     border-radius: 5px;
-    font-size: calc(10px + 2vmin);
-    min-height: 260px;
-    min-width: 260px;
-    max-height: 280px;
-    max-width: 400px;
-    background-color: white;
-    color: #282c34;
+    width: 300px;
 }

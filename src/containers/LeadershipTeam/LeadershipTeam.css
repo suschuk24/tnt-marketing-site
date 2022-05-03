@@ -1,0 +1,26 @@
+
+.LeadershipTeam-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    margin: 0;
+    background-image: linear-gradient(180deg,
+    rgba(12,113,195,0.42) 0%,
+    rgba(12,113,195,0.42) 100%),
+    url('../../../src/assets/general/tnt-hero-bg.jpeg')
+    !important;
+}
+
+.LeadershipTeam-title {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin: 20px auto;
+    padding: 20px 60px;
+    border-bottom: 10px solid #f89420;
+    border-radius: 50%;
+    background-color: #4F2683;
+    color: #FFFFFF;
+    box-shadow: 0 0 5px #4F2683;
+}

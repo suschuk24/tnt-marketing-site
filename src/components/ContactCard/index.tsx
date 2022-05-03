@@ -7,9 +7,10 @@ type Props = {
 const ContactCard: React.FC<Props> = ({contactInfo}) => {
     return (
         <div className='ContactCard-container'>
-            <h4 className='ContactCard-name'>
-                {contactInfo.name}
-            </h4>
+            <img src={contactInfo.image} className='ContactCard-logo' alt='logo' />
+            {/*<h4 className='ContactCard-name'>*/}
+            {/*    {contactInfo.name}*/}
+            {/*</h4>*/}
             <div className='ContactCard-detail'>
                 <p className='ContactCard-detail-line'>
                     {contactInfo.address}
@@ -23,11 +24,9 @@ const ContactCard: React.FC<Props> = ({contactInfo}) => {
                 <a className='ContactCard-detail-line'>
                     {contactInfo.phoneNumber}
                 </a>
-                <br />
                 <a className='ContactCard-detail-line'>
                     {contactInfo.emailAddress}
                 </a>
-
             </div>
         </div>
     );
