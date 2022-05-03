@@ -1,0 +1,36 @@
+.SubHeader-container {
+    max-height: 10%;
+    font-size: calc(10px + 2vmin);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #f89420;
+    color: #4F2683;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.SubHeader-button {
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: calc(10px + 1vmin);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: #4F2683;
+}
+.SubHeader-button:hover {
+    color: #FFFFFF;
+    transition: 0.25s;
+    cursor: pointer;
+    background-color: #4F2683;
+    border-radius: 20px;
+}
+
+.SubHeader-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+

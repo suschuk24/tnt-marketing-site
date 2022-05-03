@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: 'Nunito',Helvetica,Arial,Lucida,sans-serif;
+  line-height: 2.3rem;
 }
 
 .App-logo {

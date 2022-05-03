@@ -22,12 +22,12 @@ const LeadershipTeam = () => {
         }
     ]
     return (
-        <div id='leadership' className='LeadershipTeam-container'>
+        <section id='leadership' className='LeadershipTeam-container'>
             <h2 className='LeadershipTeam-title'>
                 Leadership Team
             </h2>
             {leaders.map(leader => <LeaderCard leader={leader} />)}
-        </div>
+        </section>
     )
 }
 

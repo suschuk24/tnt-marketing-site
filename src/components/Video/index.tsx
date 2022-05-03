@@ -20,7 +20,7 @@ const Video: React.FC<Props> = ({video}) => {
     } = useVideoElement(videoElement);
 
     return (
-        <div className="container">
+        <section className="container">
             <div className="video-wrapper">
                 <video
                     src={video}
@@ -63,7 +63,7 @@ const Video: React.FC<Props> = ({video}) => {
                     </button>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

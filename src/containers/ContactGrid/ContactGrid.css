@@ -15,12 +15,14 @@
     justify-content: center;
     font-size: 2.5rem;
     margin: 20px auto;
-    padding: 5px 20px;
+    padding: 20px 60px;
     border-bottom: 10px solid #f89420;
     border-radius: 50%;
     background-color: #4F2683;
     color: #FFFFFF;
     box-shadow: 0 0 5px #4F2683;
+    font-family: 'Marker Felt', display, sans-serif;
+    font-weight: bolder;
 }
 
 .ContactGrid-grid {

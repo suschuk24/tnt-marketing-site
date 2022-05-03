@@ -6,16 +6,19 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    font-size: calc(10px + 1vmin);
+    font-size: 1.2rem;
     margin-bottom: 1rem;
     flex-wrap: nowrap;
 }
 
 .ContactCard-detail-line {
     justify-content: center;
-    font-size: calc(10px + 1vmin);
     margin: 0;
     flex-wrap: nowrap;
+    text-decoration: none;
+    font-family: 'Marker Felt', display, sans-serif;
+    font-weight: normal;;
+    color: #666666;
 }
 
 .ContactCard-logo {
@@ -30,6 +33,10 @@
     flex-direction: column;
     justify-content: center;
     margin-bottom: 24px;
-    border-radius: 5px;
-    width: 300px;
+    border: #4F2683 solid 5px;
+    border-radius: 10px;
+    width: 315px;
+    height: 450px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 5px #4F2683;
 }

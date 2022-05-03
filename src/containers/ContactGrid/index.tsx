@@ -15,7 +15,7 @@ const ContactGrid = () => {
             address1: 'Sioux Falls, SD 57108',
             phoneNumber: '605-274-0404',
             emailAddress: 't-n-t-2@live.com',
-            image: tnt2Logo
+            logo: tnt2Logo
         },
         {
             name: 'Truks-N-Trykes NurseryCare',
@@ -23,7 +23,7 @@ const ContactGrid = () => {
             address1: 'Sioux Falls, SD 57110',
             phoneNumber: '605-900-6183',
             emailAddress: 'tntnc.info@gmail.com',
-            image: tntNcLogo
+            logo: tntNcLogo
         },
         {
             name: 'Truks-N-Trykes PlayCare',
@@ -31,7 +31,7 @@ const ContactGrid = () => {
             address1: 'Sioux Falls, SD 57110',
             phoneNumber: '605-371-9770',
             emailAddress: 'tntplaycare@gmail.com',
-            image: tntPcLogo
+            logo: tntPcLogo
         },
         {
             name: 'Truks-N-Trykes 3',
@@ -39,7 +39,7 @@ const ContactGrid = () => {
             address1: 'Sioux Falls, SD 57105',
             phoneNumber: '605-274-1819',
             emailAddress: 'missietnt3@outlook.com',
-            image: tnt3Logo
+            logo: tnt3Logo
         },
         {
             name: 'Truks-N-Trykes Prep',
@@ -47,7 +47,7 @@ const ContactGrid = () => {
             address1: 'Sioux Falls, SD 57110',
             phoneNumber: '605-900-6340',
             emailAddress: 'Email 5',
-            image: tntPrepLogo
+            logo: tntPrepLogo
         },
         {
             name: 'Truks-N-Trykes Golden Gateway',
@@ -55,13 +55,13 @@ const ContactGrid = () => {
             address1: 'Sioux Falls, SD 57110',
             phoneNumber: '(605) 271-3668',
             emailAddress: 'tntgoldengateway@gmail.com',
-            image: tntGgLogo
+            logo: tntGgLogo
         }
     ]
 
   return (
-    <div id='contact' className='ContactGrid-container'>
-      <div className='ContactGrid-title'>Contact Us</div>
+    <section id='contact' className='ContactGrid-container'>
+      <h2 className='ContactGrid-title'>Contact Us</h2>
       <div className='ContactGrid-grid'>
           {places.slice(0,2).map((place) => (
               <ContactCard contactInfo={place} />
@@ -70,7 +70,7 @@ const ContactGrid = () => {
               <ContactCard contactInfo={place} />
           ))}
       </div>
-    </div>
+    </section>
   );
 };
 

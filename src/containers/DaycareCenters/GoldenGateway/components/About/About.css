@@ -1,0 +1,11 @@
+.About-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.About-tag-line {
+    font-size: 2.5rem;
+    color: #a0cf67 !important;
+    font-family: 'Marker Felt', display, sans-serif;
+    font-weight: bolder;
+}

@@ -2,6 +2,7 @@ import About from "./components/About";
 import React from "react";
 import logo from "../../../assets/centers/tnt-gg-logo.png";
 import './GoldenGateway.css'
+import SubHeader from "./components/SubHeader";
 // type Props = {
 //     name: string
 //     address: string
@@ -22,26 +23,38 @@ const GoldenGateway: React.FC = () => {
         hours: '6:30am-6:00pm M-F',
         phone: '605-271-3668'
     }
+    const buttonData = [
+        {
+            name: 'Call',
+            link: 'tel:+1' + goldenGatewayData.phone
+        },
+        {
+            name: 'Email',
+            link: 'mailto:' + goldenGatewayData.emailAddress
+        },
+        {
+            name: 'Parent Handbook',
+            link: '/locations/golden-gateway/parent-handbook'
+        }
+    ]
 
     return (
-        <div className='GoldenGateway-container'>
-            <img  className='GoldenGateway-logo' src={logo} alt='logo' />
-            <About
-                name={goldenGatewayData.name}
-                description={goldenGatewayData.description}
-                tagLine={goldenGatewayData.tagLine}
-                address={goldenGatewayData.address}
-                address1={goldenGatewayData.address1}
-                hours={goldenGatewayData.hours}
-                phone={goldenGatewayData.phone}
-            />
-            <div>
-                <button />
-                <button />
-                <button />
-                <button />
+        <>
+            <SubHeader logo={logo} buttonData={buttonData} />
+            <div className='GoldenGateway-container'>
+                {/*<img  className='GoldenGateway-logo' src={logo} alt='logo' />*/}
+                <About
+                    name={goldenGatewayData.name}
+                    description={goldenGatewayData.description}
+                    tagLine={goldenGatewayData.tagLine}
+                    address={goldenGatewayData.address}
+                    address1={goldenGatewayData.address1}
+                    hours={goldenGatewayData.hours}
+                    phone={goldenGatewayData.phone}
+                />
+
             </div>
-        </div>
+        </>
     )
 }
 

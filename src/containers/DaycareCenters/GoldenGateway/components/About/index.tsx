@@ -1,4 +1,5 @@
 import React from "react";
+import './About.css'
 
 type Props = {
     name: string
@@ -13,15 +14,8 @@ type Props = {
 const About: React.FC<Props> = ({name, description, tagLine, address, address1, hours, phone}) => {
     return (
         <div className='About-container'>
-
             <div>
-                <h3>{phone}</h3>
-                <p>{address}</p>
-                <p>{address1}</p>
-            </div>
-            <h2>{name}</h2>
-            <div>
-                <h4>{tagLine}</h4>
+                <h2 className='About-tag-line'>{tagLine}</h2>
                 <p>{description}</p>
             </div>
         </div>
