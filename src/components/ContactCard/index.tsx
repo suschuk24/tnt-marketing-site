@@ -21,10 +21,10 @@ const ContactCard: React.FC<Props> = ({contactInfo}) => {
             </div>
             <br />
             <div className='ContactCard-detail'>
-                <a className='ContactCard-detail-line'>
+                <a href ={'tel:+1' + contactInfo.phoneNumber} className='ContactCard-detail-line'>
                     {contactInfo.phoneNumber}
                 </a>
-                <a className='ContactCard-detail-line'>
+                <a href = {'mailto:' + contactInfo.emailAddress} className='ContactCard-detail-line'>
                     {contactInfo.emailAddress}
                 </a>
             </div>

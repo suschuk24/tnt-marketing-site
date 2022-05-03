@@ -1,6 +1,5 @@
 import React from "react";
 import './LocationCard.css'
-import {Link} from "react-scroll";
 
 type Props = {
     location: {
