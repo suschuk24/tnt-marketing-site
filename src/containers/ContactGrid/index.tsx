@@ -1,12 +1,11 @@
-import ContactCard from "../../../../components/ContactCard";
+import ContactCard from "../../components/ContactCard";
 import './ContactGrid.css'
-import tntGgLogo from '../../../../assets/centers/tnt-gg-logo.png'
-import tnt2Logo from '../../../../assets/centers/tnt-2-logo.png'
-import tntNcLogo from '../../../../assets/centers/tnt-nc-logo.png'
-import tntPcLogo from '../../../../assets/centers/tnt-pc-logo.png'
-import tnt3Logo from '../../../../assets/centers/tnt-3-logo.png'
-import tntPrepLogo from '../../../../assets/centers/tnt-prep-logo.png'
-import BottomLine from "../../../../components/BottomLine";
+import tntGgLogo from '../../assets/centers/tnt-gg-logo.png'
+import tnt2Logo from '../../assets/centers/tnt-2-logo.png'
+import tntNcLogo from '../../assets/centers/tnt-nc-logo.png'
+import tntPcLogo from '../../assets/centers/tnt-pc-logo.png'
+import tnt3Logo from '../../assets/centers/tnt-3-logo.png'
+import tntPrepLogo from '../../assets/centers/tnt-prep-logo.png'
 
 const ContactGrid = () => {
     const places = [
@@ -71,7 +70,6 @@ const ContactGrid = () => {
               <ContactCard contactInfo={place} />
           ))}
       </div>
-        <BottomLine type='primary'/>
     </div>
   );
 };

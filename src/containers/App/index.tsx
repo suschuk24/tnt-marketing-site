@@ -5,10 +5,10 @@ import Header from "../../components/Header";
 import HomeScreen from '../HomeScreen';
 import Footer from "../../components/Footer"
 import GoldenGateway from "../DaycareCenters/GoldenGateway";
-import LocationGrid from "../HomeScreen/components/LocationGrid";
-import LeadershipTeam from "../HomeScreen/components/LeadershipTeam";
-import ContactGrid from "../HomeScreen/components/ContactGrid";
-import NowHiring from "../HomeScreen/components/NowHiring";
+import LocationGrid from "../LocationGrid";
+import LeadershipTeam from "../LeadershipTeam";
+import ContactGrid from "../ContactGrid";
+import NowHiring from "../NowHiring";
 
 const App = () => {
     const goldenGatewayData = {
@@ -40,7 +40,7 @@ const App = () => {
               <Route path = '/leadership' element={
                   <LeadershipTeam />
               }/>
-              <Route path = '/parent-contact' element={
+              <Route path = '/contact-us' element={
                   <ContactGrid />
               }/>
               <Route path = '/employment' element={

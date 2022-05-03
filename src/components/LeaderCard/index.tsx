@@ -1,6 +1,5 @@
 import React from "react";
 import './LeaderCard.css'
-import logo from "../../logo.svg";
 type Props = {
     leader: any
 }

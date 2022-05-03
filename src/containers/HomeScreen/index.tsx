@@ -1,15 +1,17 @@
 import React from 'react'
-import LocationGrid from "./components/LocationGrid";
-import LeadershipTeam from "./components/LeadershipTeam";
-import NowHiring from "./components/NowHiring";
-import ContactGrid from "./components/ContactGrid";
+import LocationGrid from "../LocationGrid";
+import LeadershipTeam from "../LeadershipTeam";
+import NowHiring from "../NowHiring";
+import ContactGrid from "../ContactGrid";
+import About from "./components/About";
 const HomeScreen = () => {
   return (
       <>
+          <About />
           <LocationGrid />
-          <LeadershipTeam />
-          <NowHiring />
-          <ContactGrid />
+          {/*<LeadershipTeam />*/}
+          {/*<NowHiring />*/}
+          {/*<ContactGrid />*/}
       </>
   );
 }

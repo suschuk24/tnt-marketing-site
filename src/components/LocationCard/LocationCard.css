@@ -16,6 +16,7 @@
     border-radius: 50%;
     background-color: #4F2683;
     color: #FFFFFF;
+    box-shadow: 0 0 5px #4F2683;
 }
 
 .LocationCard-detail {
@@ -34,6 +35,7 @@
     border-radius: 10px;
     width: 300px;
     background-color: #FFFFFF;
+    box-shadow: 0 0 5px #4F2683;
 }
 a {
     text-decoration: none;

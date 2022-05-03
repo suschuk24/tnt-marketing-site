@@ -5,23 +5,37 @@
 }
 
 .LeaderCard-container {
-
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #4F2683;
+    background-color: #f89420;
 }
 .LeaderCard-details {
+    margin: 20px 0;
     max-width: 800px;
+    color: #4F2683;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #4F2683;
+    border: #4F2683 5px solid;
 }
 
 .LeaderCard-image {
     max-height: 280px;
     max-width: 280px;
-    border: #61dafb 5px solid;
+    border: #4F2683 5px solid;
+    box-shadow: 0 0 5px #4F2683;
     border-radius: 20px;
     margin: 2rem;
 }
 
 .LeaderCard-name {
     margin: 2rem;
-    padding: 20px;
+    /*padding: 20px;*/
+    color: #4F2683;
 }
 
 .LeaderCard-row {
@@ -29,6 +43,5 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
-    margin-bottom: 2rem;
     flex-wrap: wrap;
 }

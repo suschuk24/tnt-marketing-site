@@ -1,0 +1,21 @@
+.About-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 50px;
+}
+.About-title {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin: 50px auto;
+    padding: 5px 20px;
+    border-bottom: 10px solid #f89420;
+    border-radius: 50%;
+    background-color: #4F2683;
+    color: #FFFFFF;
+    box-shadow: 0 0 5px #4F2683;}
+
+.About-details {
+    margin: 50px;
+}

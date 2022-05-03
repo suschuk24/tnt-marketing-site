@@ -1,9 +1,8 @@
-import LeaderCard from "../../../../components/LeaderCard";
+import LeaderCard from "../../components/LeaderCard";
 import "./LeadershipTeam.css"
-import missyCotton from '../../../../assets/leaders/misty-cotton.jpeg'
-import briMcCarty from '../../../../assets/leaders/bri-mccarty.jpeg'
-import melissaAnderson from '../../../../assets/leaders/misty-cotton.jpeg'
-import BottomLine from "../../../../components/BottomLine";
+import missyCotton from '../../assets/leaders/misty-cotton.jpeg'
+import briMcCarty from '../../assets/leaders/bri-mccarty.jpeg'
+import melissaAnderson from '../../assets/leaders/misty-cotton.jpeg'
 const LeadershipTeam = () => {
     const leaders = [
         {
@@ -28,7 +27,6 @@ const LeadershipTeam = () => {
                 Leadership Team
             </h2>
             {leaders.map(leader => <LeaderCard leader={leader} />)}
-            <BottomLine type='primary'/>
         </div>
     )
 }

@@ -1,13 +1,11 @@
-import LocationCard from "../../../../components/LocationCard";
+import LocationCard from "../../components/LocationCard";
 import './LocationGrid.css'
-import tntGgLogo from '../../../../assets/centers/tnt-gg-logo.png'
-import tnt2Logo from '../../../../assets/centers/tnt-2-logo.png'
-import tntNcLogo from '../../../../assets/centers/tnt-nc-logo.png'
-import tntPcLogo from '../../../../assets/centers/tnt-pc-logo.png'
-import tnt3Logo from '../../../../assets/centers/tnt-3-logo.png'
-import tntPrepLogo from '../../../../assets/centers/tnt-prep-logo.png'
-import TopLine from "../../../../components/TopLine";
-import BottomLine from "../../../../components/BottomLine";
+import tntGgLogo from '../../assets/centers/tnt-gg-logo.png'
+import tnt2Logo from '../../assets/centers/tnt-2-logo.png'
+import tntNcLogo from '../../assets/centers/tnt-nc-logo.png'
+import tntPcLogo from '../../assets/centers/tnt-pc-logo.png'
+import tnt3Logo from '../../assets/centers/tnt-3-logo.png'
+import tntPrepLogo from '../../assets/centers/tnt-prep-logo.png'
 
 const LocationGrid = () => {
     const locations = [{
@@ -55,7 +53,6 @@ const LocationGrid = () => {
                 {locations.slice(0, 2).map(location => <LocationCard location={location} />)}
                 {locations.slice(2).map(location => <LocationCard location={location} />)}
             </div>
-            <BottomLine type='secondary' />
         </div>
     )
 }
