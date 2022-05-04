@@ -1,43 +1,42 @@
 .NowHiring-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-  background-image: linear-gradient(180deg,
-  rgba(12,113,195,0.42) 0%,
-  rgba(12,113,195,0.42) 100%),
-  url('../../../src/assets/general/tnt-hero-bg.jpeg')
-  !important;
+    background-image: linear-gradient(180deg,
+    rgba(12, 113, 195, 0.42) 0%,
+    rgba(12, 113, 195, 0.42) 100%),
+    url('../../../src/assets/general/tnt-hero-bg.jpeg') !important;
 }
 
 .NowHiring-title {
-  display: flex;
-  justify-content: center;
-  font-size: 2.5rem;
-  margin: 20px auto;
-  padding: 20px 60px;
-  border-bottom: 10px solid #f89420;
-  border-radius: 50%;
-  background-color: #4F2683;
-  color: #FFFFFF;
-  box-shadow: 0 0 5px #4F2683;
-  font-family: 'Marker Felt', display, sans-serif;
-  font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin: 20px auto;
+    padding: 20px 60px;
+    border-bottom: 10px solid #f89420;
+    border-radius: 50%;
+    background-color: #4F2683;
+    color: #FFFFFF;
+    box-shadow: 0 0 5px #4F2683;
+    font-family: 'Marker Felt', display, sans-serif;
+    font-weight: bolder;
 }
 
 .NowHiring-button {
-  max-width: fit-content;
-  margin: 40px auto;
-  font-size: 2rem;
-  padding: 5px 20px;
-  border-radius: 20px;
-  background-color: #4F2683;
-  color: #FFFFFF;
+    max-width: fit-content;
+    margin: 40px auto;
+    font-size: 2rem;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: #4F2683;
+    color: #FFFFFF;
 }
 
 .NowHiring-button:hover {
-  background-color: #f89420;
-  color: #4F2683;
-  font-weight: bold;
-  transition: 0.45s;
+    background-color: #f89420;
+    color: #4F2683;
+    font-weight: bold;
+    transition: 0.45s;
 }

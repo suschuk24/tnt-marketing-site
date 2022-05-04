@@ -3,6 +3,7 @@ import "./LeadershipTeam.css"
 import missyCotton from '../../assets/leaders/misty-cotton.webp'
 import briMcCarty from '../../assets/leaders/bri-mccarty.webp'
 import melissaAnderson from '../../assets/leaders/melissa-anderson.webp'
+
 const LeadershipTeam = () => {
     const leaders = [
         {
@@ -26,11 +27,10 @@ const LeadershipTeam = () => {
             <h2 className='LeadershipTeam-title'>
                 Leadership Team
             </h2>
-            {leaders.map(leader => <LeaderCard leader={leader} />)}
+            {leaders.map(leader => <LeaderCard leader={leader}/>)}
         </section>
     )
 }
-
 
 
 export default LeadershipTeam

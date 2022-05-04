@@ -1,13 +1,14 @@
 import React from "react";
 import './ContactCard.css'
+
 type Props = {
-  contactInfo: any
+    contactInfo: any
 }
 
 const ContactCard: React.FC<Props> = ({contactInfo}) => {
     return (
         <section className='ContactCard-container'>
-            <img src={contactInfo.logo} className='ContactCard-logo' alt='logo' />
+            <img src={contactInfo.logo} className='ContactCard-logo' alt='logo'/>
             {/*<h4 className='ContactCard-name'>*/}
             {/*    {contactInfo.name}*/}
             {/*</h4>*/}
@@ -19,12 +20,12 @@ const ContactCard: React.FC<Props> = ({contactInfo}) => {
                     {contactInfo.address1}
                 </p>
             </address>
-            <br />
+            <br/>
             <div className='ContactCard-detail'>
-                <a href ={'tel:+1' + contactInfo.phoneNumber} className='ContactCard-detail-line'>
+                <a href={'tel:+1' + contactInfo.phoneNumber} className='ContactCard-detail-line'>
                     {contactInfo.phoneNumber}
                 </a>
-                <a href = {'mailto:' + contactInfo.emailAddress} className='ContactCard-detail-line'>
+                <a href={'mailto:' + contactInfo.emailAddress} className='ContactCard-detail-line'>
                     {contactInfo.emailAddress}
                 </a>
             </div>

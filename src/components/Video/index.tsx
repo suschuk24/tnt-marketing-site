@@ -31,9 +31,9 @@ const Video: React.FC<Props> = ({video}) => {
                     <div className="actions">
                         <button onClick={togglePlay}>
                             {!playerState.isPlaying ? (
-                                <img src={play} alt='play' />
+                                <img src={play} alt='play'/>
                             ) : (
-                                <img src={pause} alt='pause' />
+                                <img src={pause} alt='pause'/>
                             )}
                         </button>
                     </div>
@@ -56,9 +56,9 @@ const Video: React.FC<Props> = ({video}) => {
                     </select>
                     <button className="mute-btn" onClick={toggleMute}>
                         {!playerState.isMuted ? (
-                            <i className="bx bxs-volume-full" />
+                            <i className="bx bxs-volume-full"/>
                         ) : (
-                            <i className="bx bxs-volume-mute" />
+                            <i className="bx bxs-volume-mute"/>
                         )}
                     </button>
                 </div>

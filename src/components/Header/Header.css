@@ -1,62 +1,63 @@
 .App-header {
-  max-height: 10%;
-  font-size: calc(10px + 2vmin);
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  background-color: #f89420;
-  color: #4F2683;
-  font-weight: bolder;
-  padding-bottom: 30px;
-  border-bottom: #4F2683 solid 10px;
+    max-height: 10%;
+    font-size: calc(10px + 2vmin);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #f89420;
+    color: #4F2683;
+    font-weight: bolder;
+    padding-bottom: 30px;
+    border-bottom: #4F2683 solid 10px;
 }
+
 .App-header img {
-  height: 170px;
-  width: 305px;
+    height: 170px;
+    width: 305px;
 }
 
 .header-right {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .header-right a {
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: calc(10px + 1vmin);
-  border-radius: 20px;
-  font-family: 'Marker Felt', display, sans-serif;
-  font-weight: bolder;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: calc(10px + 1vmin);
+    border-radius: 20px;
+    font-family: 'Marker Felt', display, sans-serif;
+    font-weight: bolder;
 }
 
 .header-right a:hover {
-  color: #FFFFFF;
-  transition: 0.25s;
-  cursor: pointer;
-  background-color: #4F2683;
-  border-radius: 20px;
+    color: #FFFFFF;
+    transition: 0.25s;
+    cursor: pointer;
+    background-color: #4F2683;
+    border-radius: 20px;
 }
 
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 @media screen and (max-width: 640px) {
-  .App-header {
-    flex-direction: column;
-  }
+    .App-header {
+        flex-direction: column;
+    }
 
-  .header-right {
-    display: flex;
-    flex-direction: column;
-  }
+    .header-right {
+        display: flex;
+        flex-direction: column;
+    }
 
-  .header-right a {
-    font-size: calc(10px + 2vmin);
-  }
+    .header-right a {
+        font-size: calc(10px + 2vmin);
+    }
 }

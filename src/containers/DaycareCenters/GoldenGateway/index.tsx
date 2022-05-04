@@ -40,7 +40,7 @@ const GoldenGateway: React.FC = () => {
 
     return (
         <>
-            <SubHeader logo={logo} buttonData={buttonData} />
+            <SubHeader logo={logo} buttonData={buttonData}/>
             <div className='GoldenGateway-container'>
                 {/*<img  className='GoldenGateway-logo' src={logo} alt='logo' />*/}
                 <About

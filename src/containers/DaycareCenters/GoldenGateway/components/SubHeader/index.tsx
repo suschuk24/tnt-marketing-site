@@ -3,12 +3,12 @@ import './SubHeader.css'
 
 type Props = {
     logo: any
-    buttonData: Array<{name: string, link: string}>
+    buttonData: Array<{ name: string, link: string }>
 }
 
-const SubHeader:React.FC<Props> = ({logo, buttonData}) => {
+const SubHeader: React.FC<Props> = ({logo, buttonData}) => {
     return (
-        <div className = 'SubHeader-container'>
+        <div className='SubHeader-container'>
             {/*<a href='/'>*/}
             {/*    <img src={logo} className='App-logo' alt='logo' />*/}
             {/*</a>*/}

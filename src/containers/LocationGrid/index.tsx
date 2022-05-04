@@ -23,7 +23,7 @@ const LocationGrid = () => {
         address1: 'Sioux Falls, SD 57110',
         phoneNumber: '(605) 271-3668',
         emailAddress: 'tntgoldengateway@gmail.com',
-    },{
+    }, {
         name: 'Truks-N-Trykes Nursery Care',
         minAge: '6 weeks',
         maxAge: '3 years',
@@ -33,7 +33,7 @@ const LocationGrid = () => {
         address1: 'Sioux Falls, SD 57110',
         phoneNumber: '605-900-6183',
         emailAddress: 'tntnc.info@gmail.com',
-    },{
+    }, {
         name: 'Truks-N-Trykes 2',
         minAge: '6 weeks',
         maxAge: '12 years',
@@ -43,7 +43,7 @@ const LocationGrid = () => {
         address1: 'Sioux Falls, SD 57108',
         phoneNumber: '605-274-0404',
         emailAddress: 't-n-t-2@live.com',
-    },{
+    }, {
         name: 'Truks-N-Trykes Playcare',
         minAge: '2 years',
         maxAge: '12 years',
@@ -53,7 +53,7 @@ const LocationGrid = () => {
         address1: 'Sioux Falls, SD 57110',
         phoneNumber: '605-371-9770',
         emailAddress: 'tntplaycare@gmail.com',
-    },{
+    }, {
         name: 'Truks-N-Trykes 3',
         minAge: 'preschool',
         maxAge: '5 years',
@@ -63,7 +63,7 @@ const LocationGrid = () => {
         address1: 'Sioux Falls, SD 57105',
         phoneNumber: '605-274-1819',
         emailAddress: 'missietnt3@outlook.com',
-    },{
+    }, {
         name: 'Truks-N-Trykes Prep',
         minAge: 'preschool',
         maxAge: 'preschool',
@@ -94,14 +94,14 @@ const LocationGrid = () => {
             <div className='Location-grid'>
                 {locations.slice(0, 2).map(location => (
                     <ReactCardFlip isFlipped={isFlipped} key={location.link}>
-                        <LocationCard location={location} key={location.phoneNumber} />
-                        <ContactCard contactInfo={location} key ={location.name} />
+                        <LocationCard location={location} key={location.phoneNumber}/>
+                        <ContactCard contactInfo={location} key={location.name}/>
                     </ReactCardFlip>
                 ))}
                 {locations.slice(2).map(location => (
-                    <ReactCardFlip isFlipped={isFlipped} key = {location.link}>
-                        <LocationCard location={location} key={location.phoneNumber} />
-                        <ContactCard contactInfo={location} key ={location.name} />
+                    <ReactCardFlip isFlipped={isFlipped} key={location.link}>
+                        <LocationCard location={location} key={location.phoneNumber}/>
+                        <ContactCard contactInfo={location} key={location.name}/>
                     </ReactCardFlip>
                 ))}
             </div>

@@ -8,11 +8,11 @@ const BottomLine: React.FC<Props> = ({type}) => {
     switch (type) {
         case 'primary' :
             return (
-                <div className='BottomLine-primary' />
+                <div className='BottomLine-primary'/>
             )
         case 'secondary' :
             return (
-                <div className='BottomLine-secondary' />
+                <div className='BottomLine-secondary'/>
             )
         default:
             return (<></>)

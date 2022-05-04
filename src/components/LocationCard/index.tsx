@@ -14,7 +14,7 @@ type Props = {
 const LocationCard: React.FC<Props> = ({location}) => {
     return (
         <section className='LocationCard-card'>
-            <img src={location.logo} className="LocationCard-logo" alt="logo" />
+            <img src={location.logo} className="LocationCard-logo" alt="logo"/>
             <p className='LocationCard-detail'>{location.name}</p>
             <p className='LocationCard-detail'> Ages: {location.minAge} - {location.maxAge}</p>
             <a href={'/locations' + location.link} onClick={() => console.log("clicked")}>

@@ -59,19 +59,19 @@ const ContactGrid = () => {
         }
     ]
 
-  return (
-    <section id='contact' className='ContactGrid-container'>
-      <h2 className='ContactGrid-title'>Contact Us</h2>
-      <div className='ContactGrid-grid'>
-          {places.slice(0,2).map((place) => (
-              <ContactCard contactInfo={place} />
-          ))}
-          {places.slice(2).map((place) => (
-              <ContactCard contactInfo={place} />
-          ))}
-      </div>
-    </section>
-  );
+    return (
+        <section id='contact' className='ContactGrid-container'>
+            <h2 className='ContactGrid-title'>Contact Us</h2>
+            <div className='ContactGrid-grid'>
+                {places.slice(0, 2).map((place) => (
+                    <ContactCard contactInfo={place}/>
+                ))}
+                {places.slice(2).map((place) => (
+                    <ContactCard contactInfo={place}/>
+                ))}
+            </div>
+        </section>
+    );
 };
 
 export default ContactGrid;
