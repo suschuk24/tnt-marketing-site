@@ -1,11 +1,11 @@
-import ContactCard from "../../components/ContactCard";
 import './ContactGrid.css'
-import tntGgLogo from '../../assets/centers/tnt-gg-logo.png'
-import tnt2Logo from '../../assets/centers/tnt-2-logo.png'
-import tntNcLogo from '../../assets/centers/tnt-nc-logo.png'
-import tntPcLogo from '../../assets/centers/tnt-pc-logo.png'
-import tnt3Logo from '../../assets/centers/tnt-3-logo.png'
-import tntPrepLogo from '../../assets/centers/tnt-prep-logo.png'
+import ContactCard from "../../components/ContactCard";
+import tntGgLogo from '../../assets/centers/tnt-gg-logo.webp'
+import tnt2Logo from '../../assets/centers/tnt-2-logo.webp'
+import tntNcLogo from '../../assets/centers/tnt-nc-logo.webp'
+import tntPcLogo from '../../assets/centers/tnt-pc-logo.webp'
+import tnt3Logo from '../../assets/centers/tnt-3-logo.webp'
+import tntPrepLogo from '../../assets/centers/tnt-prep-logo.webp'
 
 const ContactGrid = () => {
     const places = [

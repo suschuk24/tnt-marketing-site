@@ -1,6 +1,6 @@
 import About from "./components/About";
 import React from "react";
-import logo from "../../../assets/centers/tnt-gg-logo.png";
+import logo from "../../../assets/centers/tnt-gg-logo.webp";
 import './GoldenGateway.css'
 import SubHeader from "./components/SubHeader";
 // type Props = {

@@ -1,8 +1,8 @@
 import LeaderCard from "../../components/LeaderCard";
 import "./LeadershipTeam.css"
-import missyCotton from '../../assets/leaders/misty-cotton.jpeg'
-import briMcCarty from '../../assets/leaders/bri-mccarty.jpeg'
-import melissaAnderson from '../../assets/leaders/misty-cotton.jpeg'
+import missyCotton from '../../assets/leaders/misty-cotton.webp'
+import briMcCarty from '../../assets/leaders/bri-mccarty.webp'
+import melissaAnderson from '../../assets/leaders/melissa-anderson.webp'
 const LeadershipTeam = () => {
     const leaders = [
         {
