@@ -11,6 +11,10 @@
   padding-bottom: 30px;
   border-bottom: #4F2683 solid 10px;
 }
+.App-header img {
+  height: 170px;
+  width: 305px;
+}
 
 .header-right {
   display: flex;

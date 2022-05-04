@@ -28,7 +28,7 @@ const LocationGrid = () => {
         minAge: '6 weeks',
         maxAge: '3 years',
         logo: tntNcLogo,
-        link: '/golden-gateway',
+        link: '/nursery-care',
         address: '4825 S Hosta Avenue',
         address1: 'Sioux Falls, SD 57110',
         phoneNumber: '605-900-6183',
@@ -38,7 +38,7 @@ const LocationGrid = () => {
         minAge: '6 weeks',
         maxAge: '12 years',
         logo: tnt2Logo,
-        link: '/golden-gateway',
+        link: '/2',
         address: '5000 S MacArthur Lane, Suite 101',
         address1: 'Sioux Falls, SD 57108',
         phoneNumber: '605-274-0404',
@@ -48,7 +48,7 @@ const LocationGrid = () => {
         minAge: '2 years',
         maxAge: '12 years',
         logo: tntPcLogo,
-        link: '/golden-gateway',
+        link: '/playcare',
         address: '3400 Centerﬁeld Place',
         address1: 'Sioux Falls, SD 57110',
         phoneNumber: '605-371-9770',
@@ -58,7 +58,7 @@ const LocationGrid = () => {
         minAge: 'preschool',
         maxAge: '5 years',
         logo: tnt3Logo,
-        link: '/golden-gateway',
+        link: '/3',
         address: '2600 S Minnesota Ave.',
         address1: 'Sioux Falls, SD 57105',
         phoneNumber: '605-274-1819',
@@ -68,7 +68,7 @@ const LocationGrid = () => {
         minAge: 'preschool',
         maxAge: 'preschool',
         logo: tntPrepLogo,
-        link: '/golden-gateway',
+        link: '/prep',
         address: '4801 S Hosta Avenue',
         address1: 'Sioux Falls, SD 57110',
         phoneNumber: '605-900-6340',
@@ -93,15 +93,15 @@ const LocationGrid = () => {
             </div>
             <div className='Location-grid'>
                 {locations.slice(0, 2).map(location => (
-                    <ReactCardFlip isFlipped={isFlipped}>
-                        <LocationCard location={location} />
-                        <ContactCard contactInfo={location} />
+                    <ReactCardFlip isFlipped={isFlipped} key={location.link}>
+                        <LocationCard location={location} key={location.phoneNumber} />
+                        <ContactCard contactInfo={location} key ={location.name} />
                     </ReactCardFlip>
                 ))}
                 {locations.slice(2).map(location => (
-                    <ReactCardFlip isFlipped={isFlipped}>
-                        <LocationCard location={location} />
-                        <ContactCard contactInfo={location} />
+                    <ReactCardFlip isFlipped={isFlipped} key = {location.link}>
+                        <LocationCard location={location} key={location.phoneNumber} />
+                        <ContactCard contactInfo={location} key ={location.name} />
                     </ReactCardFlip>
                 ))}
             </div>
