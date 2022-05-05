@@ -20,7 +20,7 @@ const App = () => {
                         <HomeScreen/>
                     }/>
                     <Route path='/locations/golden-gateway' element={
-                        <GoldenGateway/>
+                        <GoldenGateway />
                     }/>
                     <Route path='/locations' element={
                         <LocationGrid/>

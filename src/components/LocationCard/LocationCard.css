@@ -1,5 +1,4 @@
 .LocationCard-logo {
-    display: flex;
     margin: 12px auto;
     max-height: 150px;
     max-width: 220px;
@@ -34,8 +33,6 @@
 }
 
 .LocationCard-card {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     margin-bottom: 24px;
     border: #4F2683 solid 5px;

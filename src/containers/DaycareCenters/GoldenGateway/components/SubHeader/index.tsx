@@ -9,14 +9,9 @@ type Props = {
 const SubHeader: React.FC<Props> = ({logo, buttonData}) => {
     return (
         <div className='SubHeader-container'>
-            {/*<a href='/'>*/}
-            {/*    <img src={logo} className='App-logo' alt='logo' />*/}
-            {/*</a>*/}
-            <div className='SubHeader-right'>
-                {buttonData.map(button => (
-                    <a className='SubHeader-button' href={button.link}> {button.name}</a>
-                ))}
-            </div>
+            {buttonData.map((button, i) => (
+                <a key={i} className='SubHeader-button' href={button.link}> {button.name}</a>
+            ))}
         </div>
     )
 }

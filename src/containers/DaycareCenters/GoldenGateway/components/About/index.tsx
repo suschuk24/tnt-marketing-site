@@ -13,9 +13,9 @@ type Props = {
 }
 const About: React.FC<Props> = ({name, description, tagLine, address, address1, hours, phone}) => {
     return (
-        <div className='About-container'>
-            <div>
-                <h2 className='About-tag-line'>{tagLine}</h2>
+        <div className='AboutG-container'>
+            <div className='AboutGG-card'>
+                <h2 className='AboutGG-tag-line'>{tagLine}</h2>
                 <p>{description}</p>
             </div>
         </div>

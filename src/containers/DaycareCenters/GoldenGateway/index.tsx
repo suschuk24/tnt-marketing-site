@@ -3,13 +3,7 @@ import React from "react";
 import logo from "../../../assets/centers/tnt-gg-logo.webp";
 import './GoldenGateway.css'
 import SubHeader from "./components/SubHeader";
-// type Props = {
-//     name: string
-//     address: string
-//     address1: string
-//     hours: string
-//     phone: string
-// }
+
 const GoldenGateway: React.FC = () => {
     const goldenGatewayData = {
         name: 'Truks-N-Truks Golden Gateway',
@@ -39,7 +33,7 @@ const GoldenGateway: React.FC = () => {
     ]
 
     return (
-        <>
+        <div className='GoldenGateway-container'>
             <SubHeader logo={logo} buttonData={buttonData}/>
             <div className='GoldenGateway-container'>
                 {/*<img  className='GoldenGateway-logo' src={logo} alt='logo' />*/}
@@ -54,7 +48,7 @@ const GoldenGateway: React.FC = () => {
                 />
 
             </div>
-        </>
+        </div>
     )
 }
 

@@ -1,8 +1,16 @@
 .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
     font-family: 'Nunito', Helvetica, Arial, Lucida, sans-serif;
     line-height: 2.3rem;
     margin-bottom: 24px;
+    background-image: linear-gradient(180deg,
+    rgba(12, 113, 195, 0.42) 0%,
+    rgba(12, 113, 195, 0.42) 100%),
+    url('../../../src/assets/general/tnt-hero-bg.jpeg') !important;
 }
 
 .App-logo {

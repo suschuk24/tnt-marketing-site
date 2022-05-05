@@ -2,11 +2,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    background-image: linear-gradient(180deg,
-    rgba(12, 113, 195, 0.42) 0%,
-    rgba(12, 113, 195, 0.42) 100%),
-    url('../../../src/assets/general/tnt-hero-bg.jpeg') !important;
 }
 
 .NowHiring-title {
